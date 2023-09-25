@@ -1,0 +1,3 @@
+Airpods Raffle: https://bit.ly/llamaindex-webinar-raffle
+
+Then once you’ve signed up, go here: https://github.com/singlestore-labs/webinar-code-examples/blob/main/Building_a_Gen_AI_App_with_LlamaIndex_and_SingleStore.ipynb
