@@ -1,0 +1,6 @@
+Ways to handle Categorical data:-
+1) Delete the Rows
+2) Replace with the most FREQUENT VALUES.
+3) Apply Classication Algorithm
+4) Apply UNsupervised ML
+

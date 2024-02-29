@@ -1,0 +1,33 @@
+
+CREATE DATABASE mynewdb;
+
+SHOW DATABASES;
+
+
+-----------------------------------
+USE mynewdb;
+
+CREATE TABLE CustomerInfo (
+    CustomerID INT PRIMARY KEY,
+    FirstName VARCHAR(50),
+    LastName VARCHAR(50),
+    Email VARCHAR(100),
+    Phone VARCHAR(20),
+    Address VARCHAR(255)
+);
+-----------------------------------
+USE mynewdb;
+
+-- First, drop any constraints or foreign keys that reference the old CustomerID
+ALTER TABLE CustomerInfo ;
+
+-- Next, drop the old CustomerID column
+ALTER TABLE CustomerInfo DROP COLUMN CustomerID;
+
+-- Finally, add the new CustomerID column with auto-increment
+ALTER TABLE CustomerInfo ADD CustomerID INT AUTO_INCREMENT PRIMARY KEY;
+----------------------------------
+
+USE mynewdb;
+
+SELECT * FROM CustomerInfo;
