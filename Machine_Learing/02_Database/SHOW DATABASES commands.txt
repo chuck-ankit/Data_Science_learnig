@@ -1,0 +1,3 @@
+SHOW DATABASES;
+SHOW tables FROM world;
+SELECT * FROM city;
